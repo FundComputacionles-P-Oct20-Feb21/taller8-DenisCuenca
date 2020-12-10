@@ -1,0 +1,29 @@
+//  Ejemplo de uso de arreglos 
+1.  Inicio
+2.  (notasMatematica(3),i[0-n])
+3.  (notasCiencias(3),i[0-n])
+4.  (promedio(2),i[0-n])
+5.  indice, i[0-n]
+6.  suma, i[0-n]
+7.  notasMatematica[0] <-- 8
+8.  notasMatematica[1] <-- 9
+9.  notasMatematica[2] <-- 10
+10. notasCiencias[0] <-- 10
+11. notasCiencias[1] <-- 9
+12. notasCiencias[2] <-- 10
+13. Para(indice<--0, indice<3, 1) haga
+14.   suma <-- suma + notasMatematica[i]
+15. Fin_Para 
+16. promedio[0] <-- suma/3
+17. suma <-- 0
+18. Para(indice<--0, indice<3, 1) haga
+19.   suma <-- suma + notasCiencias[i]
+20. Fin_Para 
+21. promedio[1] <-- suma/3
+22. Fin
+
+
+
+
+
+
