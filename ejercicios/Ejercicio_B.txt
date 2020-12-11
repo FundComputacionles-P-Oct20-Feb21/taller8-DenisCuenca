@@ -1,0 +1,17 @@
+1.  Inicio
+2.  (ventas(5), i[0-n])
+3.  (dias(5),x(20)[{a-z}, {BS}])
+4.  dias[0]<-- "Lunes"
+5.  dias[1]<-- "Martes"
+6.  dias[2]<-- "Miércoles"
+7.  dias[3]<-- "Jueves"
+8.  dias[4]<-- "Viernes"
+9.  indice, i[0-n]
+10. Para (indice<--0, indice<5, 1) haga
+11. 	<< "Ingrese el número de ventas en el día " + dias[indice]
+12. 	>> ventas[indice]
+13. Fin_Para 
+14. Para (indice<--0, indice<5, 1) haga	 
+15. 	<< dias[indice] + "$" + ventas[indice]
+16. Fin_Para
+17. Fin

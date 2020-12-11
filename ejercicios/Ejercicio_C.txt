@@ -1,0 +1,14 @@
+1.  Inicio
+2.  (arreglo(5), i[0-n])
+3.  arreglo[0] <-- 10
+4.  arreglo[1] <-- 9
+5.  arreglo[2] <-- 20
+6.  arreglo[3] <-- 29
+7.  arreglo[4] <-- 100
+8.  indice, i[0-n] 
+9.  Para (indice<-- 0, indice<5, 1)haga
+10. 	Si (indice MOD 2) == 1 entonces
+11. 		<< arreglo[indice]
+12. 	Fin_Si
+13. Fin_Para
+14. Fin	

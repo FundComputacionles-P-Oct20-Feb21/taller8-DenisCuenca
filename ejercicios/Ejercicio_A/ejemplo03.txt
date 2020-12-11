@@ -1,0 +1,25 @@
+1.  Inicio
+2.  (notasMatematica(3),i[0-n])
+3.  (notasCiencias(3),i[0-n])
+4.  (promedio(2),i[0-n])
+5.  indice, i[0-n] <-- 0
+6.  suma, i[0-n]
+7.  notasMatematica[0] <-- 8
+8.  notasMatematica[1] <-- 9
+9.  notasMatematica[2] <-- 10
+10. notasCiencias[0] <-- 10
+11. notasCiencias[1] <-- 9
+12. notasCiencias[2] <-- 10
+13. Mientras indice < 3 entonces:
+14.	suma <-- suma + notasMatematica[indice]
+15. 	indice <-- indice + 1 
+16. Fin Mientras
+17. promedio[0] <-- suma/3
+18. suma <-- 0
+19. indice <-- 0
+20. Mientras indice < 3 entonces:
+21.	suma <-- notasCiencias[indice]
+22.	indice <-- indice + 1
+23. Fin Mientras
+24. promedio[1] <-- suma/3
+25. Fin	  

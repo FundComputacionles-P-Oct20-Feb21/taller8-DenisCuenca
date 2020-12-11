@@ -1,0 +1,19 @@
+ 1.  Inicio
+ 2.  (notasEstudiante1(3),i[0-n])
+ 3.  (notasEstudiante2(3),i[0-n])
+ 4.  indice, i[0-n]
+ 5.  suma, i[0-n] <-- 0
+ 6.  indice<-- 0
+ 7.  notasEstudiantes1[0] <-- 9
+ 8.  notasEstudiantes1[1] <-- 10
+ 9.  notasEstudiantes1[2] <-- 7
+10.  notasEstudiantes2[0] <-- 8
+11.  notasEstudiantes2[1] <-- 9
+12.  notasEstudiantes2[2] <-- 10
+13.  Mientras indice<3 entonces:
+14. 	suma <-- suma + notaEstudiante1[indice]
+15. 	suma <-- suma + notaEstudiante2[indice]
+16. 	indice <-- indice + 1
+17.  Fin Minetras
+18.  escribir suma
+19.  Fin
